@@ -1,27 +1,82 @@
-# Cybersecurity Quiz Game By Shiksha
+🔐 Cybersecurity Quiz Game by Shiksha
+🎮 A fun and interactive Python-based quiz game designed to spread cybersecurity awareness — with a sleek registration form and a user-friendly GUI interface.
 
-🎮 A fun, educational Java-based quiz game on cybersecurity awareness with a sleek registration page.
+🧠 Features
+📋 Registration page with:
 
-## 🧠 Features
-- Registration page with name, age, email, gender
-- Interactive GUI quiz using Java Swing
-- Image-based interface
-- Scores and feedback after quiz
-- Multiple cyber awareness questions
+Name
 
-## 🛠️ Technologies Used
-- Java Swing (GUI)
-- OOP Concepts
-- Images and UI styling
+Age
 
-## 📸 Screenshots
-(Add here after uploading your images)
+Email
 
-## 🚀 How to Run
-1. Open in VS Code / IntelliJ
-2. Compile and Run `CyberQuizMain.java`
-3. Play the quiz game after registration
+Contact Number
 
-## ✨ Credits
-- 👩‍💻 Developed by: Shiksha Trivedi
+Gender
+
+🎯 Randomized cybersecurity quiz questions
+
+🖼️ GUI interface using Tkinter (with image background)
+
+📊 Score display and feedback at the end
+
+❌ Wrong answer warning
+
+✅ Correct answer confirmation
+
+🛠️ Technologies Used
+Python 3.x
+
+Tkinter for GUI
+
+OOP Concepts
+
+Basic file handling (if score storage/logs needed)
+
+📸 Screenshots
+(Add your project screenshots here once available. You can drag and drop .png or .jpg files in GitHub README editor or use ![Alt Text](image_url) syntax.)
+
+🚀 How to Run
+💻 Prerequisites
+Python 3.x installed
+
+Any code editor (VS Code recommended)
+
+tkinter is pre-installed with Python
+
+▶️ Steps:
+Clone or download the project from GitHub
+
+Open in VS Code / any IDE
+
+Run main.py
+
+Register and enjoy the quiz!
+
+📁 File Structure
+graphql
+Copy
+Edit
+CyberQuizGame/
+│
+├── main.py                 # Entry point (register + quiz)
+├── quiz_game.py            # Game logic & quiz interface
+├── registration_form.py    # GUI for user registration
+├── assets/                 # Images used in GUI
+│   ├── background.jpg
+│   └── logo.png
+└── README.md               # Project description
+
+👩‍💻 Developer
+Shiksha Trivedi
+💬 Passionate about cybersecurity, coding, and elegant UI designs.
+
+🏁 Future Enhancements
+Add timer per question
+
+Store user scores in a file or DB
+
+Include leaderboard
+
+Make mobile-friendly version (via Kivy or React Native)
 
